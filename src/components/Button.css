@@ -1,0 +1,17 @@
+.button button{
+    width: 20rem;
+    height: 5rem;
+    border-radius: 50px;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+}
+.button button:hover{
+    transform: scale(1.05);
+}
+.button button:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px #666;
+}
