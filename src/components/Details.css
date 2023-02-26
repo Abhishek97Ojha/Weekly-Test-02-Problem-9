@@ -1,0 +1,27 @@
+.details{
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    background-size: 110% 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+    padding-left: 10rem;
+}
+.details h1{
+    font-size: 6rem;
+}
+.details h2{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+.details p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.details .para{
+    margin-bottom: 2.5rem;
+}
