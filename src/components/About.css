@@ -1,0 +1,35 @@
+.about{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: whitesmoke;
+}
+.about div{
+    /* border: 2px solid red; */
+    width: 70%;
+
+}
+.about div p{
+    font-weight: 500;
+    color: #bdbdbd;
+}
+.about div p a{
+    color: #bdbdbd;
+}
+@media only screen and (max-width: 430px){
+    .about{
+        width: 400px;
+    }
+    .about div h3{
+        font-size: 1.1rem;
+    }
+    .about div p{
+        font-weight: 500;
+        font-size: .8rem;
+    }
+}

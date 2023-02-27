@@ -1,4 +1,4 @@
-.mobile{
+.mobile {
     /* border: 2px solid red; */
     width: 100%;
     height: 100vh;
@@ -8,30 +8,42 @@
     position: relative;
     background-color: #101010;
 }
-.mobile img{
+
+.mobile img {
     height: 70%;
     width: 25%;
     bottom: -2rem;
 }
-.mobile .img1{
+
+.mobile .img1 {
     position: absolute;
     left: 55rem;
 }
-.mobile .img2{
+
+.mobile .img2 {
     position: absolute;
-    left : 9rem;
+    left: 9rem;
 }
-.mobile .img3{
+
+.mobile .img3 {
     position: absolute;
     right: 45rem;
     height: 80%;
 }
-.mobile .img4{
+
+.mobile .img4 {
     position: absolute;
     left: 45rem;
     height: 80%;
 }
-.mobile .img5{
+
+.mobile .img5 {
     position: absolute;
     height: 90%;
+}
+
+@media only screen and (max-width: 430px) {
+    .mobile {
+        display: none;
+    }
 }

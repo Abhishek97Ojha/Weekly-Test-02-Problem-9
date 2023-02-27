@@ -1,4 +1,4 @@
-.rating{
+.rating {
     background-color: #101010;
     /* border: 2px solid red; */
     width: 100%;
@@ -7,13 +7,15 @@
     flex-direction: column;
     color: whitesmoke;
 }
-.rating .app{
+
+.rating .app {
     /* border: 2px solid red; */
     width: 100%;
     height: 60%;
     display: flex;
 }
-.rating .app .ios{
+
+.rating .app .ios {
     /* border: 2px solid red; */
     width: 50%;
     height: 100%;
@@ -22,26 +24,31 @@
     align-items: center;
     flex-direction: column;
 }
-.rating .app .ios .ios-rating{
+
+.rating .app .ios .ios-rating {
     /* border: 2px solid red; */
     width: 45%;
     display: flex;
     margin-bottom: 2rem;
 }
-.rating .app .ios .ios-rating  div{
+
+.rating .app .ios .ios-rating div {
     /* border: 2px solid red; */
     width: 50%;
-   
+
 }
-.rating .app .ios .ios-rating  div h1{
+
+.rating .app .ios .ios-rating div h1 {
     font-size: 6rem;
     /* border: 2px solid red; */
     width: 50%;
 }
-.rating .app .ios .ios-rating  div img{
+
+.rating .app .ios .ios-rating div img {
     width: 80%;
 }
-.rating .app .ios .ios-rating .ios-store{
+
+.rating .app .ios .ios-rating .ios-store {
     /* border: 2px solid red; */
     width: 50%;
     display: flex;
@@ -50,10 +57,12 @@
     flex-direction: column;
     padding-left: 1.3rem;
 }
-.rating .app .ios .ios-rating .ios-store h2{
+
+.rating .app .ios .ios-rating .ios-store h2 {
     font-size: 2.5rem;
 }
-.rating .app .android{
+
+.rating .app .android {
     /* border: 2px solid red; */
     width: 50%;
     height: 100%;
@@ -62,26 +71,31 @@
     align-items: center;
     flex-direction: column;
 }
-.rating .app .android .android-rating{
+
+.rating .app .android .android-rating {
     /* border: 2px solid red; */
     width: 45%;
     display: flex;
     margin-bottom: 2rem;
 }
-.rating .app .android .android-rating  div{
+
+.rating .app .android .android-rating div {
     /* border: 2px solid red; */
     width: 50%;
-   
+
 }
-.rating .app .android .android-rating  div h1{
+
+.rating .app .android .android-rating div h1 {
     font-size: 6rem;
     /* border: 2px solid red; */
     width: 50%;
 }
-.rating .app .android .android-rating  div img{
+
+.rating .app .android .android-rating div img {
     width: 80%;
 }
-.rating .app .android .android-rating .play-store{
+
+.rating .app .android .android-rating .play-store {
     /* border: 2px solid red; */
     width: 50%;
     display: flex;
@@ -90,10 +104,12 @@
     flex-direction: column;
     padding-left: 1.3rem;
 }
-.rating .app .android .android-rating .play-store h2{
+
+.rating .app .android .android-rating .play-store h2 {
     font-size: 2.5rem;
 }
-.rating .review{
+
+.rating .review {
     /* border: 2px solid red; */
     width: 100%;
     height: 40%;
@@ -103,8 +119,29 @@
     align-items: center;
     padding: 6rem;
 }
-.rating .review p{
+
+.rating .review p {
     font-size: 1.2rem;
     font-weight: 600;
     margin-top: 2rem;
+}
+
+@media only screen and (max-width: 430px) {
+    .rating{
+        width: 400px;
+    }
+    .rating .app .ios .ios-rating div h1,
+    .rating .app .android .android-rating div h1 {
+        font-size: 2rem;
+    }
+
+    .rating .app .ios .ios-rating .ios-store h2,
+    .rating .app .android .android-rating .play-store h2 {
+        font-size: 1.1rem;
+    }
+    .rating .review p {
+        font-size: .8rem;
+        font-weight: 600;
+        margin-top: 2rem;
+    }
 }

@@ -1,4 +1,9 @@
 .App{
-  /* border: 2px solid red; */
   width : 100% ;
+  margin: 0;
+}
+@media only screen and (max-width: 430px){
+    .App{
+      width : 400px ;
+    }
 }

@@ -25,3 +25,21 @@
   .brands .down img{
     width: 85%;
   }
+  @media only screen and (max-width: 430px){
+    .brands{
+        width : 400px;
+    }
+    .brands .top{
+        padding-left: .5rem;
+    }
+    .brands .top h2{
+        font-size: 1.1rem;
+    }
+    .brands .down img{
+        width: 90%;
+        height: 15%;
+      }
+      .brands .down{
+        padding-left: 1rem;
+      }
+  }

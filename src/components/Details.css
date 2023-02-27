@@ -25,3 +25,21 @@
 .details .para{
     margin-bottom: 2.5rem;
 }
+@media only screen and (max-width: 430px) {
+    .details{
+        padding-left: .5rem;
+        width: 400px;
+    }
+    .details h1{
+        font-size: 2rem;
+    }
+    .details h2{
+        margin-top: 1.5rem;
+        font-size: 1.1rem;
+    }
+    .details p{
+        /* border: 1px solid; */
+        font-size: .8rem;
+        font-weight: 600;
+    }
+}

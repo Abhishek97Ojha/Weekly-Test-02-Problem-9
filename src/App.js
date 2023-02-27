@@ -1,7 +1,9 @@
 import "./App.css";
+import About from "./components/About";
 import Brands from "./components/Brands";
 import Details from "./components/Details";
 import Empty from "./components/Empty";
+import Footer from "./components/Footer";
 import Heading from "./components/Heading";
 import Mobile from "./components/Mobile";
 import Navbar from "./components/Navbar";
@@ -47,6 +49,8 @@ function App() {
       />
       <Story />
       <Rating />
+      <About />
+      <Footer />
     </div>
   );
 }
