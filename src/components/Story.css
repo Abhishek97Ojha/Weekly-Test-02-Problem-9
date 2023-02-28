@@ -26,9 +26,6 @@
     margin-bottom: 1rem;
 }
 @media only screen and (max-width: 430px){
-    .story{
-        width:400px
-    }
     .story div h1{
         font-size: 2rem;
         margin-left: .5rem;

@@ -22,7 +22,8 @@
 
 @media only screen and (max-width: 430px) {
     .heading {
-        width: 400px;
+        padding-left: .5rem;
+        /* width: 400px; */
         margin-top: 6vh;
         justify-content: center;
         align-items: flex-start;

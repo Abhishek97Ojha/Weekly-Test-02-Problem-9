@@ -36,7 +36,7 @@
   }
   @media only screen and (max-width: 430px){
     .navbar{
-        width: 400px;
+        /* width: 400px; */
         height:6rem;
     }
     .navbar .left{

@@ -23,7 +23,7 @@
 }
 @media only screen and (max-width: 430px){
     .about{
-        width: 400px;
+        /* width: 400px; */
     }
     .about div h3{
         font-size: 1.1rem;

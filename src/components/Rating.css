@@ -127,9 +127,7 @@
 }
 
 @media only screen and (max-width: 430px) {
-    .rating{
-        width: 400px;
-    }
+    
     .rating .app .ios .ios-rating div h1,
     .rating .app .android .android-rating div h1 {
         font-size: 2rem;

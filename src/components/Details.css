@@ -28,7 +28,7 @@
 @media only screen and (max-width: 430px) {
     .details{
         padding-left: .5rem;
-        width: 400px;
+        /* width: 400px; */
     }
     .details h1{
         font-size: 2rem;
